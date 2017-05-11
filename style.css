@@ -33,7 +33,7 @@
 }
 .sub_parent .sub_child a:hover
 {
-	color: #9c9999;
+	color: #9c9999 !important;
 }
 .sub_parent .sub_child li
 {
