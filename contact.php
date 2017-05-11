@@ -34,9 +34,9 @@ $content = message_pop($return,$data)."
 			<br /><br /><br />
 			 <div id=\"content\" class=\"main-content\" data-content-field=\"main-content\" data-collection-id=\"56d74a821d07c0ad6dd89221\" data-edit-main-image=\"Banner\">
 				<div class=\"sqs-layout sqs-grid-12 columns-12\" data-type=\"page\" data-updated-on=\"1457642298578\" id=\"page-56d74a821d07c0ad6dd89221\">
-				   <div class=\"row sqs-row\">
+				   <div class=\"row sqs-row\" style=\"margin: 0 auto !important;max-width: 1020px;padding: 96px 32px;\">
 					  <div class=\"col sqs-col-12 span-12\">
-						 <div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\" id=\"block-67735813c10b4ab9d4ec\">
+						 <div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\" id=\"block-67735813c10b4ab9d4ec\" style=\"padding-left:0px !important;padding-right:0px !important;\">
 							<div class=\"sqs-block-content\">
 							   <h3 class=\"text-align-center\">Give us a call or email us for enquiries</h3>
 							   <p class=\"text-align-center\"><strong>For urgent help, call our 24 hr helpline.</strong></p>
