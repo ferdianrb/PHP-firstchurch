@@ -8,6 +8,15 @@
 {
 	display:none;
 	list-style-type:none;
+	position:absolute;
+	top:20px;
+	background:#fff;
+	margin:10px;
+  width: 100%;
+  text-align: left;
+	border-radius:1px;
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
 }
 .sub_parent
 {
@@ -16,15 +25,7 @@
 .sub_parent:hover .sub_child
 {
 	display:block;
-	position:absolute;
-	top:20px;
-	background:#fff;
-	margin:10px;
-    width: 100%;
-    text-align: left;
-	border-radius:1px;
-	-webkit-border-radius:1px;
-	-moz-border-radius:1px;
+
 }
 .sub_parent .sub_child a
 {
