@@ -70,3 +70,7 @@
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+#content {
+	margin-top: 83px;
+}
