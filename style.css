@@ -33,11 +33,11 @@
 }
 .sub_parent .sub_child a:hover
 {
-	opacity: 0.9;
+	opacity: 0.7;
 }
 .sub_parent .sub_child li
 {
-    padding: 15px 15px;
+    padding: 25px 25px;
 }
 .sub_parent .sub_child li:hover
 {
