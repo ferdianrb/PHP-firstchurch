@@ -1,0 +1,41 @@
+@font-face
+{
+	font-family:futura-pt;
+	src:url("font/futura-pt-light.otf");
+}
+
+.sub_child
+{
+	display:none;
+	list-style-type:none;
+}
+.sub_parent
+{
+	position:relative;
+}
+.sub_parent:hover .sub_child
+{
+	display:block;
+	position:absolute;
+	top:20px;
+	background:#fff;
+	margin:10px;
+    width: 100%;
+    text-align: left;
+	border-radius:1px;
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+}
+.sub_parent .sub_child a
+{
+	color:black !important;
+	width:100%;
+}
+.sub_parent .sub_child li
+{
+    padding: 15px 15px;
+}
+.sub_parent .sub_child li:hover
+{
+	background:#afafaf !important;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+  <title>Squarespace - File Not Found</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <script crossorigin="anonymous" src="//static.squarespace.com/universal/scripts-compressed/common-addc25a6108506f02ffc-min.js"></script><link rel="stylesheet" type="text/css" href="//static.squarespace.com/universal/styles-compressed/common-0b979f58e9f1bf02f46c39cd85aea1b5-min.css"/>
+  <script crossorigin="anonymous" src="//static.squarespace.com/universal/scripts-compressed/dialog-da058aa9304841b9e53a-min.js"></script><link rel="stylesheet" type="text/css" href="//static.squarespace.com/universal/styles-compressed/dialog-41403d1f0d87846c1b05baa36a8d7c38-min.css"/>
+  <script crossorigin="anonymous" src="//static.squarespace.com/universal/scripts-compressed/system-page-e806f03bada3df05ae70-min.js"></script><link rel="stylesheet" type="text/css" href="//static.squarespace.com/universal/styles-compressed/system-page-ba18b7a97d198b241b8c5bf19adc2aa3-min.css"/>
+  
+</head>
+<body class="squarespace-config squarespace-system-page">
+
+  <div class="minimal-logo">&nbsp;</div>
+
+  <script>
+
+    Static =  { };
+    Static.CONTEXT = {};
+
+    YUI(YUI_CONFIG).use('squarespace-common', 'squarespace-system-page', function(Y) {
+
+      var message = '<div class="bigtext"><div class="title">File Not Found</div><div class="description">The file you have requested could not be found.</div></div>';
+
+      var lb = new Y.Squarespace.Lightbox({
+        disableNormalClose: true,
+        clickAnywhereToExit: false,
+        content: message,
+        margin: 100
+      });
+
+      lb.show();
+         
+    }); 
+
+  </script> 
+
+</body>
+</html>

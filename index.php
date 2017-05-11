@@ -1,0 +1,1 @@
+<?Php error_reporting(0);$content = read_template();?>
