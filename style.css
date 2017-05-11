@@ -39,3 +39,11 @@
 {
 	background:#afafaf !important;
 }
+
+.img-header {
+	top: -288px;
+	left: 0px;
+	width: 100% !important;
+	height: auto !important;
+	position: relative;
+}
