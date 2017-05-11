@@ -65,10 +65,10 @@ for($i_menu=0;$i_menu<count($menu_option[mn_id]);$i_menu++)
 		}
 
 		$multilayer_class = " class=\"tooltiptext\"";
-		$multilayer_menu = "<ul class=\"drop-down sub_parent\"><span class=\"sub_child\">".$submenu_option."</span></ul>";
+		$multilayer_menu = "<ul class=\"drop-down sub_child\">".$submenu_option."</ul>";
 	}
 
-	$nav_menu .= "<div".$multilayer_class."><a href=\"".$GLOBALS['access_dir_path_link']."page/".antiSql2($menu_option[mn_url][$i_menu])."\" ".$nav_active[$active_menu].">".antiSql2($menu_option[mn_name][$i_menu])."</a>".$multilayer_menu."</div>";
+	$nav_menu .= "<div".$multilayer_class." class=\"sub_parent\"><a href=\"".$GLOBALS['access_dir_path_link']."page/".antiSql2($menu_option[mn_url][$i_menu])."\" ".$nav_active[$active_menu].">".antiSql2($menu_option[mn_name][$i_menu])."</a>".$multilayer_menu."</div>";
 	if($active_menu==$GLOBALS[menu_url])
 	{
 		$data_menu[q] = $GLOBALS[q_]."mn_id:".$menu_option[mn_id][$i_menu].";";
