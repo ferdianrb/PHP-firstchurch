@@ -33,7 +33,7 @@
 }
 .sub_parent .sub_child a:hover
 {
-	opacity: 0.7;
+	color: #9c9999;
 }
 .sub_parent .sub_child li
 {
