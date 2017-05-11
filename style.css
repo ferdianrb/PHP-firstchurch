@@ -45,9 +45,8 @@
 }
 
 .img-header {
-	top: -288px;
+	top: 0px;
 	left: 0px;
 	width: 100% !important;
 	height: auto !important;
-	position: none !important;
 }
